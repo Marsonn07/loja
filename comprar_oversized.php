@@ -7,19 +7,19 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-        <div class="logo">
-            <h1>Renova</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a class="cabecalho_menu" href="inicio.php">Início</a></li>
-                <li><a class="cabecalho_menu_a" href="comprar.php">Produtos</a></li>
-                <li><a class="cabecalho_menu" href="sobre.php">Sobre Nós</a></li>
-                <li><a class="cabecalho_menu" href="contato.php">Contato</a></li>
-                <li><a class="cabecalho_menu" href="login.php">Login</a></li>
-            </ul>
-        </nav>
+    <header>
+            <div class="logo">
+                <h1>Renova</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="cabecalho_menu" href="inicio.php">Início</a></li>
+                    <li><a class="cabecalho_menu_a" href="comprar.php">Comprar</a></li>
+                    <li><a class="cabecalho_menu" href="sobre.php">Sobre Nós</a></li>
+                    <li><a class="cabecalho_menu" href="contato.php">Contato</a></li>
+                    <li><a class="cabecalho_menu" href="login.php">Login</a></li>
+                </ul>
+            </nav>
     </header>
 
   <section id="produto">
