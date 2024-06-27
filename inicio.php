@@ -49,8 +49,6 @@
                 <p>R$ 129,90</p>
                 <a href="comprar_oversized.php" class="btn">Comprar</a>
             </div>
-         
-            <!-- Adicione mais produtos conforme necessário -->
         </div>
     </section>
 
