@@ -13,10 +13,10 @@
         </div>
         <nav>
             <ul>
-                <li><a class="cabecalho_menu_a" href="inicio.php">Início</a></li>
-                <li><a class="cabecalho_menu" href="produtos.php">Produtos</a></li>
-                <li><a class="cabecalho_menu" href="sobre.php">Sobre Nós</a></li>
-                <li><a class="cabecalho_menu" href="contato.php">Contato</a></li>
+                <li><a class="cabecalho_menu_a" href="inicio_a.php">Início</a></li>
+                <li><a class="cabecalho_menu" href="produtos_a.php">Produtos</a></li>
+                <li><a class="cabecalho_menu" href="sobre_a.php">Sobre Nós</a></li>
+                <li><a class="cabecalho_menu" href="contato_a.php">Contato</a></li>
             </ul>
         </nav>
     </header>
