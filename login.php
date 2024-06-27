@@ -25,9 +25,9 @@
     <section id="login">
         <div class="login-container">
             <h2>Login</h2>
-            <form action="processa-login.php" method="POST">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <form action="inicio_a.php" method="POST">
+                <label for="nomeusuario">Nome de Usuário:</label>
+                <input type="nomeusuario" id="nomeusuario" name="nomeusuario" required>
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha" name="senha" required>
                 <button href="inicio.php" class="btn">Entrar</buttun>
@@ -47,29 +47,25 @@
 
 
 <?php
-// processa-login.php
 
-// Conectar ao banco de dados
 $conexao = new PDO("mysql:host=localhost;dbname=loja", 'root','');
 
 
-// Verificar se os dados foram enviados
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    // Consulta ao banco de dados
     $sql = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
     $result = $conexao->query($sql);
 
     if ($result->num_rows > 0) {
-        // Login bem-sucedido
         header("Location: conexao.php");
     } else {
-        // Login falhou
         echo "Email ou senha incorretos.";
     }
 }
 
 $conn->close();
 ?>
+
+
